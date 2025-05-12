@@ -10,6 +10,6 @@ iface vmbr0 inet static
         bridge-ports enp1s0f0
         bridge-stp off
         bridge-fd 0
-
+        
         //commands//
          systemctl restart networking.service
